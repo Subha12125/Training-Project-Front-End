@@ -1,0 +1,99 @@
+/* Main navbar container */
+/* .main-nav-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh;              
+  width: 100%;
+  background-color: #0d6efd; 
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+} */
+
+
+/* top menu  */
+.main-nav-div {
+  height: 10vh;
+  width: 100%;
+  background-color: #0d6efd;
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* //////// */
+/* to make it left align */
+/* .main-nav-div { 
+  position: fixed;
+  top: 6vh;                
+  left: 0;
+  width: 10%;
+  height: calc(100vh - 14vh); 
+  background-color: #0d6efd;
+
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+} */
+
+
+/* Nav list */
+.main-nav-div nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0 30px;
+  /* only to make it left side */
+  /* flex-direction: column; */
+}
+
+/* Nav links */
+.main-nav-div nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.main-nav-div nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* blue effect behind text */
+}
+
+/* Active NavLink (current page) */
+.main-nav-div nav ul li a.active {
+  background-color: white;
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+/* Click (while pressing) */
+.main-nav-div nav ul li a:active {
+  background-color: #084298;
+  color: white;
+}
+
+
+
+/* ---------------- MOBILE VIEW ---------------- */
+@media (max-width: 768px) {
+  .main-nav-div {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-nav-div nav ul {
+    flex-direction: row;
+    gap: 25px;
+  }
+}
