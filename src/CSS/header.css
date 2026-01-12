@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-header-div {
+    background-color: rgb(2, 26, 70);
+    height: 6vh;
+    display: flex;
+
+    position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;     
+    z-index: 1000;    
+}
+.main-header-div h3{
+    padding: 0.4rem;
+    font-family: gillroy, sans-serif;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.header-logo{
+    height: 6vh;
+    object-fit: contain;
+    align-items: flex-start;
+}
+
+@media (max-width : 786px) {
+    .main{
+        display: none;
+    }
+}
