@@ -43,6 +43,7 @@
 .register-card h2 {
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 /* Form layout */
@@ -55,6 +56,7 @@
 .form-group label {
   margin-bottom: 6px;
   font-size: 14px;
+  color: white;
 }
 
 .form-group input {

@@ -5,6 +5,7 @@ import '../CSS/login.css'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
+import { FaLock } from "react-icons/fa";
 
 export const Login = () => {
     const navigate = useNavigate();
@@ -61,7 +62,7 @@ export const Login = () => {
                     </div>
 
                     <div className="form-group">
-                        <label>Password: </label>
+                        <label><FaLock className='input-icon'/>Password: </label>
                         <input type="password" name="password" required onChange={handleChange} value={form.password}/>
                     </div>
 
