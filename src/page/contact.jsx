@@ -1,4 +1,5 @@
 import "../CSS/contact.css"
+import { FormContact } from "./form";
 
 export const Contact = () => {
     return (
@@ -30,9 +31,8 @@ export const Contact = () => {
         allowFullScreen=""
         loading="lazy">
         </iframe>
-
       </div>
-
+      <FormContact/>
 
 
         </>
