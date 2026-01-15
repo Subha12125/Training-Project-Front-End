@@ -1,30 +1,13 @@
+import '../index.css';
+
+
 export const Home = () => {
     return (
         <>
-            <h1>This is my home</h1>
-            <p>Created by subha</p>
+            <div className="bg-zinc-800 h-screen text-white flex flex-col justify-center items-center">
+                <h1 className="text-4xl font-bold">This is my home</h1>
+                <p className="text-lg mt-2">Created by Subha</p>
+            </div>
         </>
     )
 };
-// import "../CSS/home.css"
-
-// export const Home = () => {
-//     return (
-//         <>
-//             <section id="home" className="page-section">
-//                 <h1>Home</h1>
-//                 <p>Hello home !!</p>
-//             </section>
-//             <section id="about" className="page-section">
-//                 <h1>About</h1>
-//                 <p>Hello about !!</p>
-//             </section>
-//             <section id="contact" className="page-section">
-//                 <h1>Contact</h1>
-//                 <p>Hello contact !!</p>
-//             </section>
-//         </>
-//     )
-// };
-
-
